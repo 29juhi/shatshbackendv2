@@ -1,6 +1,6 @@
-fastapi==0.95.2
-uvicorn==0.22.0
-sqlalchemy==2.0.20
-pydantic==1.10.7
-python-multipart==0.0.6
-pydantic-core==2.10.1
+fastapi==0.109.1  # Latest stable FastAPI
+uvicorn==0.27.0  # Latest Uvicorn
+sqlalchemy==2.0.25  # Latest SQLAlchemy 2.x
+pydantic==2.6.4  # Latest Pydantic v2 (requires Rust, but Railway allows it)
+python-multipart==0.0.9  # Updated version
+# pydantic-core included automatically with pydantic v2
